@@ -3,3 +3,93 @@
   font-weight: 400;
   font-style: normal;
 }
+
+.menu-background {
+  background-image: url("resources/index/background1.gif");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.menu-title {
+  font-size: 160px;
+  color: #fff;
+  text-align: center;
+}
+
+.menu-button {
+  display: flex;
+  width: 10vw;
+  height: 4vh;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  font-size: 24px;
+  color: #fff;
+  background-color: #333;
+  border: blue solid 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.ring-1 {
+  position: absolute;
+  border-radius: 50%;
+  border: rgb(2, 112, 8) solid 5px;
+  width: 40vw;
+  height: 55vh;
+  pointer-events: none;
+}
+
+.ring-2 {
+  position: absolute;
+  border-radius: 50%;
+  border: rgb(224, 39, 39) solid 5px;
+  width: 50vw;
+  height: 65vh;
+  pointer-events: none;
+}
+
+.ring-3 {
+  position: absolute;
+  border-radius: 50%;
+  border: rgb(27, 29, 204) solid 5px;
+  width: 60vw;
+  height: 75vh;
+  pointer-events: none;
+}
+
+.ring-4 {
+  position: absolute;
+  border-radius: 50%;
+  border: rgb(155, 91, 7) solid 5px;
+  width: 70vw;
+  height: 85vh;
+  pointer-events: none;
+}
+
+.ring-5 {
+  position: absolute;
+  border-radius: 50%;
+  border: rgb(109, 6, 6) solid 5px;
+  width: 80vw;
+  height: 95vh;
+  pointer-events: none;
+}
+
+.ring-6 {
+  position: absolute;
+  border-radius: 50%;
+  border: rgb(0, 0, 0) solid 5px;
+  width: 90vw;
+  height: 105vh;
+  pointer-events: none;
+}
