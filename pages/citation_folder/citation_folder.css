@@ -1,5 +1,20 @@
-.Citation-Background{
-    background-image: url("resources/index/.citation_background.png");
+.citation_background{
+    background-image: url("../../resources/index/citation_background.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 
-    
+
+}
+
+
+
+a{
+
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+
 }
