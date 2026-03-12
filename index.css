@@ -23,6 +23,24 @@
   font-size: 160px;
   color: #fff;
   text-align: center;
+  animation: rotation 10s linear infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(-15deg);
+    font-size: 200px;
+  }
+
+  50% {
+    transform: rotate(15deg);
+    font-size: 120px;
+  }
+
+  100% {
+    transform: rotate(-15deg);
+    font-size: 200px;
+  }
 }
 
 .menu-button {
