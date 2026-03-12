@@ -23,7 +23,7 @@ class PoGen extends Item
 {
     constructor()
     {
-        super("Power Generator", "Increases power of Ele/lazer attacks for x turns", "consumable");
+        super("Power Generator", "Increases power of electric/lazer attacks for x turns", "consumable");
     }
 }
 
