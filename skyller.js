@@ -15,7 +15,7 @@ class Item
     }
 }
 
-class poGen extends Item
+class PoGen extends Item
 {
     constructor()
     {
@@ -23,7 +23,7 @@ class poGen extends Item
     }
 }
 
-class ruRem extends Item
+class RuRem extends Item
 {
     constructor()
     {
@@ -63,7 +63,7 @@ class Scope extends Item
     }
 }
 
-class faPla extends Item
+class FaPla extends Item
 {
     constructor()
     {
@@ -71,7 +71,7 @@ class faPla extends Item
     }
 }
 
-class gaMas extends Item
+class GaMas extends Item
 {
     constructor()
     {
@@ -87,7 +87,7 @@ class Spikes extends Item
     }
 }
 
-class irPil extends Item
+class IrPil extends Item
 {
     constructor()
     {
@@ -95,7 +95,7 @@ class irPil extends Item
     }
 }
 
-class chGas extends Item
+class ChGas extends Item
 {
     constructor()
     {
