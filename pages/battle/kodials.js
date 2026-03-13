@@ -133,7 +133,7 @@ class Kodial {
 
 class Iris extends Kodial{
   constructor() {
-    const moves = ["Beholder's Knowledge", new Scratch(), new Bite(), new Dash()];
+    const moves = [new Beholders_Knowledge(), new Scratch(), new Bite(), new Dash()];
     const description = "A cat that has lived and hunted in the forest for years, blessed by the power of the IRIS";
     const spr = "placeholder"
 
@@ -173,7 +173,7 @@ class SteTi extends Kodial{
 
 class Gunmetal extends Kodial{
   constructor(){
-    const moves = [new Rearm(), new Rapid_Fire(), "Artillery Fire"];
+    const moves = [new Rearm(), new Rapid_Fire(), new Artillery_Fire()];
     const description = "";
     const spr = "placeholder";
 
@@ -183,7 +183,7 @@ class Gunmetal extends Kodial{
 
 class Ele extends Kodial{
   constructor(){
-    const moves = ["Orbit", "Zap", "Magnetize"];
+    const moves = [new Orbit(), new Zap(), new Magnetize()];
     const description = "";
     const spr = "placeholder";
 
@@ -193,7 +193,7 @@ class Ele extends Kodial{
 
 class A1pha extends Kodial{
   constructor(){
-    const moves = ["Plasma Slash", "Jet Rush", "Bite"];
+    const moves = [new Plasma_Slash(), new Jet_Rush(), new Bite()];
     const description = "Cyber Cities primary law enforcement personnel. Uploaded with criminal records every second, facial recognition, decision-making and combat AI, along with an arsenal hidden below sleek chrome; their terrifying red gaze strikes fear into any possible criminal. Though they do still like it when they’re pet";
     const spr = "placeholder";
 
@@ -203,7 +203,7 @@ class A1pha extends Kodial{
 
 class Erodaki extends Kodial{
   constructor(){
-    const moves = ["Corrode", "Acids Rounds", "Toxic Splash"];
+    const moves = [new Corrode(), new Acids_Rounds(), new Toxic_Splash()];
     const description = "The modern equivalent of what the ancients called “rats”. Their acid is used to rip through infrastructure and sewer systems, breaking down the cybernetics into a puddle they can consume. Due to their blindness, they also commonly attack people, but are quickly put down by the countless defense systems in the city.";
     const spr = "placeholder";
 
@@ -213,7 +213,7 @@ class Erodaki extends Kodial{
 
 class Sat extends Kodial{
   constructor(){
-    const moves = ["Ram", "Artillery Fire", "Hyper Sonic"];
+    const moves = [new Ram(), Artillery_Fire(), new Hyper_Sonic()];
     const description = "An aerial creature that scouts and attacks from the skies. Speedy with moderate fire power but weak in defence. Used in the military to eradicate enemies without them ever coming close.";
     const spr = "placeholder";
 
@@ -223,7 +223,7 @@ class Sat extends Kodial{
 
 class Shad extends Kodial{
   constructor(){
-    const moves = ["Dash", "Short Circuit", "SHADOW BURST.EXE"];
+    const moves = [new Dash(), new Short_Circuit(), new Shadow_Burst()];
     const description = "One of the most advanced series of Kodials, the C0RE series, was made for precision and strength, each model stronger and faster than the last. This was the first of the C0RE series, not even given a proper name, yet is seemingly fully functional? The unknown energy emanating from it must be simply leftover power. Though those that see them in the scrapyard hear strange whispers coming from their scrapped husk.";
     const spr = "placeholder";
 
@@ -233,7 +233,7 @@ class Shad extends Kodial{
 
 class Vip extends Kodial{
   constructor(){
-    const moves = ["Rust Slash"];
+    const moves = [new Rust_Slash()];
     const description = "This ancient two headed dragon once tried to fly, but seen as a threat, the military shot it down from the sky. In the battered aftermath, it slugged its large body to flee to the sewers, swearing vengeance upon humans left to forever cry its acidic tears in the depths of the shadows slowly corroding away.";
     const spr = "placeholder";
 
@@ -243,7 +243,7 @@ class Vip extends Kodial{
 
 class Schwerer extends Kodial{
   constructor(){
-    const moves = ["Artillery Fire", "Ram", "Ultimate Shot"];
+    const moves = [new Artillery_Fire(), new Ram(), new Ultimate_Shot()];
     const description = "This creature served in the military, using its colossal head as a gun to fire upon prey. It was the king above all others. But after years of dedication to the city it has become a shell of its former glory. Yet, despite its age the living weapon is still a powerful adversary and tough being to destroy.";
     const spr = "placeholder";
 

@@ -128,3 +128,57 @@ class Magnetize extends Moves {
     
   }
 }
+
+class Acids_Rounds extends Moves {
+  constructor() {
+    super("Acids Rounds", 60, 100, "Corrosive", "50% chance to poison");
+  }
+}
+
+class Hyper_Sonic extends Moves {
+  constructor() {
+    super("Hyper Sonic", 35, 90, "Artillery", "Adds the difference between the Kodials’ speed to the base attack before attack calculation");
+  }
+}
+
+class Shadow_Burst extends Moves {
+  constructor() {
+    super("SHADOW BURST.EXE", 75, 100, "Voltaic", "Ignores 30% of defence");
+  }
+}
+
+class Rust_Slash extends Moves {
+  constructor() {
+    super("Rust Slash", 60, 90, "Corrosive", "Deals 1/8 of the opponents health each turn until they’re dead");
+  }
+}
+
+class Ultimate_Shot extends Moves {
+  constructor() {
+    super("Ultimate Shot", 0, 100, "Artillery", "Shot takes 65% of the opponent's health. Takes 10% of their own health. Also can’t attack for 1 turn.");
+  }
+}
+
+class Orbit extends Moves {
+  constructor() {
+    super("Orbit", 40, 100, "Voltaic", "Iits twice, then 50% chance to hit a 3rd time");
+  }
+}
+
+class Beholders_Knowledge extends Moves { //lack of stats from the docs
+  constructor() {
+    super("Beholder's Knowledge", 0, 0, "Bio", "Raises user’s evasiveness for 3 turns");
+  }
+}
+
+class Rearm extends Moves {
+  constructor() {
+    super("Rearm", 0, 100, "Artillery", "Heals hp by 15%");
+  }
+}
+
+class Corrode extends Moves { //lack of stats from the docs
+  constructor() {
+    super("Corrode", 0, 0, "Corrosive", "Lower the enemies defense by 20%");
+  }
+}
