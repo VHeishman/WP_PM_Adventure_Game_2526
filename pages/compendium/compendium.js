@@ -1,6 +1,5 @@
-// !!!! As of the first push !!!!
 // !!!! Gunmetal and Eve Unit 2 have no description !!!!
-// !!!! Kiriiko and Zyphos have no moves !!!!
+// !!!! Zyphos has no moves !!!!
 
 // Shows whether an info box is open or not
 let openState=false;
@@ -47,7 +46,7 @@ function controlState() {
         "Gunmetal":{atk:60,def:45,spd:30,hp:45,img:"",moves:"Rearm, Rapid Fire",desc:"TBD"},
         "Voltsune":{atk:30,def:35,spd:70,hp:25,img:"",moves:"Zap, Dash, Scratch",desc:"A natural trickster, it uses its speed and ability to fire electricity from one of its 9 tails to attack and steal from others within the forests. It's adorable outside does perfectly hides its mischievous nature, despite having thousands of years of simulated knowledge."},
         "Viper & Fang":{atk:70,def:35,spd:20,hp:60,img:"",moves:"Rust Slash",desc:"This ancient two headed dragon once tried to fly, but seen as a threat, the military shot it down from the sky. In the battered aftermath, it slugged its large body to flee to the sewers, swearing vengeance upon humans left to forever cry its acidic tears in the depths of the shadows slowly corroding away."},
-        "Kiriiko":{atk:30,def:30,spd:50,hp:35,img:"",moves:"TBD",desc:"A small levitating white cat with a laser-rifle"},
+        "Kiriiko":{atk:30,def:30,spd:50,hp:35,img:"",moves:"Bombs Away, Rapid Fire, Scratch",desc:"A small levitating white cat with a laser-rifle"},
         "Zyphos":{atk:90,def:70,spd:80,hp:90,img:"",moves:"TBD",desc:"A demigod that looks over the world "},
         "Schwerer Kaiser":{atk:60,def:40,spd:10,hp:80,img:"",moves:"Artillery Fire, Ultimate Shot",desc:"This creature served in the military, using its colossal head as a gun to fire upon prey. But after years of dedication it has become a shell of its former glory. Yet, despite its age the living weapon is still a powerful adversary."},
         "S.A.T":{atk:40,def:20,spd:30,hp:90,img:"",moves:"Ram, Hyper Sonic",desc:"An aerial creature that scouts and attacks from the skies. Speedy with moderate fire power but weak in defence. Used in the military to eradicate enemies without them ever coming close."},
