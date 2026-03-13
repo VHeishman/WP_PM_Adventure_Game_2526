@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="compendium.css">
+        <title>Compendium</title>
+    </head>
+    <body onload="makeButtons();assignEvents();">
+        <div id="cover">
+            <div id="info">
+                <button id="closeInfo">×</button>
+                <h1 id="name"></h1><br>
+                <sub class="generalInfo" id="desc"></sub><br><br>
+                <sub class="generalInfo" id="baseMoves"></sub><br>
+                <sub class="generalInfo" id="stats"><span id="atk"></span> atk, <span id="def"></span> def, <span id="spd"></span> spd, <span id="hp"></span> hp</sub>
+            </div>
+        </div>
+
+        <div id="mainContent">
+            <br><h1>Compendium</h1><br>
+            <div id="buttonArea"></div>
+            <script src="compendium.js"></script>
+        </div>
+    </body>
+</html>
