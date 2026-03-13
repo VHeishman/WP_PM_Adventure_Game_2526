@@ -125,5 +125,6 @@ class Jet_Rush extends Moves {
 class Magnetize extends Moves {
   constructor() {
     super("Magnetize", 60, 100, 'Cyber', "Deals +40 power to Cyber and Artillery, -10% Evasiveness for 2 turns");
+    
   }
 }
